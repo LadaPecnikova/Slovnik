@@ -1,0 +1,14 @@
+/Users/ladapecnikova/Desktop/C# 2/Slovnik/Slovnik/bin/Debug/net8.0/Slovnik
+/Users/ladapecnikova/Desktop/C# 2/Slovnik/Slovnik/bin/Debug/net8.0/Slovnik.deps.json
+/Users/ladapecnikova/Desktop/C# 2/Slovnik/Slovnik/bin/Debug/net8.0/Slovnik.runtimeconfig.json
+/Users/ladapecnikova/Desktop/C# 2/Slovnik/Slovnik/bin/Debug/net8.0/Slovnik.dll
+/Users/ladapecnikova/Desktop/C# 2/Slovnik/Slovnik/bin/Debug/net8.0/Slovnik.pdb
+/Users/ladapecnikova/Desktop/C# 2/Slovnik/Slovnik/obj/Debug/net8.0/Slovnik.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ladapecnikova/Desktop/C# 2/Slovnik/Slovnik/obj/Debug/net8.0/Slovnik.AssemblyInfoInputs.cache
+/Users/ladapecnikova/Desktop/C# 2/Slovnik/Slovnik/obj/Debug/net8.0/Slovnik.AssemblyInfo.cs
+/Users/ladapecnikova/Desktop/C# 2/Slovnik/Slovnik/obj/Debug/net8.0/Slovnik.csproj.CoreCompileInputs.cache
+/Users/ladapecnikova/Desktop/C# 2/Slovnik/Slovnik/obj/Debug/net8.0/Slovnik.dll
+/Users/ladapecnikova/Desktop/C# 2/Slovnik/Slovnik/obj/Debug/net8.0/refint/Slovnik.dll
+/Users/ladapecnikova/Desktop/C# 2/Slovnik/Slovnik/obj/Debug/net8.0/Slovnik.pdb
+/Users/ladapecnikova/Desktop/C# 2/Slovnik/Slovnik/obj/Debug/net8.0/Slovnik.genruntimeconfig.cache
+/Users/ladapecnikova/Desktop/C# 2/Slovnik/Slovnik/obj/Debug/net8.0/ref/Slovnik.dll
