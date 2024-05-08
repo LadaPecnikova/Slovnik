@@ -43,9 +43,9 @@ nakup.Add("zelenina", 120);
 
 // 8. Zjisti, jestli slovník obsahuje nějakou konkrétní potravinu a pokud ano, vypiš její cenu, pokud ne, vypiš, že není.
 bool nalezeno = false;
-foreach(KeyValuePair<string, int> item in nakup)
+foreach (KeyValuePair<string, int> item in nakup)
 {
-    if(item.Key == "chleba") 
+    if (item.Key == "chleba")
     {
         Console.WriteLine($"Cena chleba je {item.Value} Kč.");
         nalezeno = true;
@@ -59,20 +59,8 @@ if (!nalezeno)
 
 // 9. Řekněme, že už jsi do slovníku přidala např. chleba a zjistila, že máš v nákupní tašce ještě jeden -> uprav hodnotu k tomu klíči tak, aby obsahovala hromadnou cenu za všechny stejné položky.
 string hledanyKlic = "chleba";
-int novaHromadnaCena = 0;
+int pocetChlebuVNakupu = 2;
+int soucasnaCena = nakup[hledanyKlic];
+nakup[hledanyKlic] = soucasnaCena * pocetChlebuVNakupu;
 
-// Projdi všechny klíče ve slovníku
-foreach (string klic in nakup.Keys)
-{
-    // Pokud je aktuální klíč stejný jako hledaný klíč
-    if (klic == hledanyKlic)
-    {
-        // Přičti hodnotu klíče k celkové hromadné ceně
-        novaHromadnaCena += nakup[klic];
-    }
-}
-
-// Aktualizuj hodnotu klíče "chleba" na novou hromadnou cenu
-nakup[hledanyKlic] = novaHromadnaCena;
-
-Console.WriteLine($"Hromadná cena za {hledanyKlic} je {novaHromadnaCena} Kč.");
+Console.WriteLine($"Hromadná cena za {hledanyKlic} je {nakup[hledanyKlic]} Kč.");
